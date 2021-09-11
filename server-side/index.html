@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <html>
+      <head>
+         <title>chat</title>
+         <link rel="stylesheet" href="./style.css">
+      </head>
+      <body>
+         <div class="container">
+         <body style="background-color: #121212;">
+            <div class=messages>
+               <ol id="messages" class="r"></ol>
+            </div>
+            <div class="navbar">
+               <div class="center">
+                  <input type="text" id="input" onkeyup="charcountupdate(this.value)">
+                  <button onclick="send()" id="button">send</button>
+                  <span id=charcount class=charcount></span>
+               </div>
+            </div>
+            <script  src="./script.js"></script>
+      </body>
+   </html>
